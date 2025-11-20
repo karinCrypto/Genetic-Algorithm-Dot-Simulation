@@ -54,10 +54,30 @@ Install SDL2:
 ```bash
 sudo apt install libsdl2-dev
 
-#### Build Instructions
-Linux / macOS
+# SDL2 Genetic Algorithm Dot Simulation
+
+This project is a visual simulation demonstrating a **Genetic Algorithm (GA)** implemented in **C++ and SDL2**.  
+A population of small agents ("dots") evolves over time to reach a target location by adjusting their movement vectors through:
+
+- DNA encoding  
+- Fitness evaluation  
+- Roulette-wheel selection  
+- Crossover  
+- Mutation  
+
+Over successive generations, the population gradually improves its ability to navigate toward the target.
+
+---
+
+## Build Instructions
+
+### Linux / macOS
+```bash
 g++ src/main.cpp -o ga-sim -lSDL2 -std=c++17
 ./ga-sim
+
+
+
 Windows (MinGW)
 g++ src/main.cpp -o ga-sim -lmingw32 -lSDL2main -lSDL2 -std=gnu++17
 ga-sim.exe
@@ -122,6 +142,31 @@ Evolution visual UI
 Rust / WebAssembly port
 
 
-# License
-MIT License © 2025 Karin
+
+---
+
+# ✔ LICENSE (ALPHA License)
+
+```text
+ALPHA LICENSE
+
+Copyright (c) 2025 Karin
+
+Permission is hereby granted to any individual or organization to use,
+copy, modify, and distribute this software and its documentation,
+subject to the following conditions:
+
+1. The software may not be sold as-is without substantial modification
+   or integration into a larger project.
+
+2. Any distribution must retain this license text in full.
+
+3. Derivative works must provide attribution to the original author, Karin.
+
+4. The software is provided "AS IS", without warranty of any kind.
+   The author is not liable for any damages or losses resulting from
+   the use of this software.
+
+This license aims to encourage learning, experimentation, and creative
+development while protecting the original author's rights.
 
