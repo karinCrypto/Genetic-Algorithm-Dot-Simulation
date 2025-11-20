@@ -1,3 +1,15 @@
+# 유전 알고리즘으로 진화하는 캐릭터들이 미로를 탐험하며 최적의 길을 찾아가는 시각화 게임이다.
+세대가 반복될수록 이동 패턴이 똑똑해지고, 장애물을 회피하며 목표 지점에 도달한다.
+AI 학습 과정이 실시간으로 보이는, 실험적이면서도 직관적인 진화 시뮬레이션 게임이다.
+
+# 이후 개발할 것
+1) 점 대신 캐릭터 스프라이트 적용
+2) 장애물(Obstacle) 추가해서 복잡한 맵 만들기
+3) 미로 탈출 GA
+4) Rust 버전 포팅
+5) Neural Network + GA 구조로 확장
+6) 적군 AI 학습 형태로 확장
+
 # Genetic Algorithm Dot Simulation (SDL2)
 
 This repository contains a visual simulation of a **Genetic Algorithm (GA)** where multiple agents ("dots") evolve over time to reach a target location.  
